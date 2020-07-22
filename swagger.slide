@@ -6,7 +6,9 @@ steve.mynott@gmail.com
 https://suffolkgophers.github.io/
 @steve_mynott
 
-: Geared towards Client-side a (partial) War Story.
+: Geared towards Client-side a War Story.
+: Quickly write tests for existing servers with swagger specs
+: Server-side out of scope
 
 * Introduction
 
@@ -20,6 +22,7 @@ https://suffolkgophers.github.io/
 
 - https://goswagger.io/
 
+: "Framework"
 : Server examples but no client examples. FAQ "minimal"
 
 * My Use Case
