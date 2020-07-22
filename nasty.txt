@@ -1,0 +1,11 @@
+2020/07/22 16:01:46 validating spec /home/steve/sandbox/TALK/newexttests/swagger/oshim.yaml
+The swagger spec at "/home/steve/sandbox/TALK/newexttests/swagger/oshim.yaml" is invalid against swagger specification 2.0. see errors :
+- in operation "createClient", default value in response 201 does not validate its schema
+- 201.allOf[1].filter_days.default in body should be one of [Weekdays Weekends All Week]
+- default value for body in body does not validate its schema
+- body.filter_days.default in body should be one of [Weekdays Weekends All Week]
+- in operation "updateClientById", default value in response 200 does not validate its schema
+- 200.allOf[1].filter_days.default in body should be one of [Weekdays Weekends All Week]
+- in operation "showClientById", default value in response 200 does not validate its schema
+- definitions.patchClientSettings.filter_days.default in body should be one of [Weekdays Weekends All Week]
+

@@ -1,0 +1,6 @@
+       filter_days:
+         type: string
+         enum: [Weekdays, Weekends, All Week]
+-        default: "null"
++        default: null
+         example: All Week
