@@ -4,7 +4,6 @@ A Quick (& Incomplete) Introduction to the Client-side
 Steve Mynott
 steve.mynott@gmail.com
 https://suffolkgophers.github.io/
-@steve_mynott
 
 : Geared towards Client-side a War Story.
 : Quickly write tests for existing servers with swagger specs
@@ -40,7 +39,7 @@ https://suffolkgophers.github.io/
 .play nasty.txt
 .play nasty-fix.txt
 
-* Auto-generated Code 
+* Auto-generated Code
 
 .play domain_lookup_response.go /START HEADER/,/FINISH HEADER/
 
@@ -49,7 +48,7 @@ https://suffolkgophers.github.io/
 - clients - "sort of odd"
 
 : Two directories
-: models -  structs resemble JSON unmarshalling structures - fairly obvious 
+: models -  structs resemble JSON unmarshalling structures - fairly obvious
 : - flat directory structure
 : clients -  functions and methods to create clients - more mysterious
 : embedded directory structures - client/clients
@@ -67,7 +66,7 @@ https://suffolkgophers.github.io/
 
 * api/api_test.go
 
-.play api-exampletest.go 
+.play api-exampletest.go
 * Problem 2
 
 - (vendor supplied) sim.json is wrong and doesn't describe reality
@@ -90,7 +89,7 @@ usually `{"codes":[100,200,300]}` sometimes `{"codes":["UNCAT"]}`
 
 - x-omitempty in spec
 
--  Alters model 
+-  Alters model
 `Version string `json:"version,omitempty"``
 
 : Slack channel
